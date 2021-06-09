@@ -1,4 +1,4 @@
-package com.liumeng.kotlin
+package com.liumeng.kotlin.cainiao
 
 /**
  * Created by liumeng on 2021/6/9 0009.
@@ -10,7 +10,7 @@ class KotlinTest {
     }
 }
 fun main(args: Array<String>) {    // 包级可见的函数，接受一个字符串数组作为参数
-    var test  =  KotlinTest ()
+    var test  = KotlinTest()
     val sum = test.sum(1, 3)
     println(sum)
 
